@@ -15,7 +15,7 @@ kill -9 ${PID}
 
 elif [ "$2" == "start" ]; then
     echo "starting process from BG"
-fg ${PID}
+fg 1
 
 elif [ "$2" == "stop" ]; then
 echo "puting process to BG"
